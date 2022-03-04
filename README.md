@@ -1,32 +1,32 @@
-# Reliese Laravel Model Generator
-[![Build Status](https://travis-ci.org/reliese/laravel.svg?branch=master)](https://travis-ci.org/reliese/laravel)
-[![Latest Stable Version](https://poser.pugx.org/reliese/laravel/v/stable)](https://packagist.org/packages/reliese/laravel)
-[![Total Downloads](https://poser.pugx.org/reliese/laravel/downloads)](https://packagist.org/packages/reliese/laravel)
-[![Latest Unstable Version](https://poser.pugx.org/reliese/laravel/v/unstable)](https://packagist.org/packages/reliese/laravel)
-[![License](https://poser.pugx.org/reliese/laravel/license)](https://packagist.org/packages/reliese/laravel)
+# tinymeng Laravel Model Generator
+[![Build Status](https://travis-ci.org/majiameng/laravel-generation-model.svg?branch=master)](https://travis-ci.org/majiameng/laravel-generation-model)
+[![Latest Stable Version](https://poser.pugx.org/laravel-generation-model/laravel/v/stable)](https://packagist.org/packages/majiameng/laravel-generation-model)
+[![Total Downloads](https://poser.pugx.org/majiameng/laravel-generation-model/downloads)](https://packagist.org/packages/majiameng/laravel-generation-model)
+[![Latest Unstable Version](https://poser.pugx.org/majiameng/laravel-generation-model/v/unstable)](https://packagist.org/packages/majiameng/laravel-generation-model)
+[![License](https://poser.pugx.org/majiameng/laravel-generation-model/license)](https://packagist.org/packages/majiameng/laravel-generation-model)
 
-Reliese Laravel Model Generator aims to speed up the development process of Laravel applications by 
+tinymeng Laravel Model Generator aims to speed up the development process of Laravel applications by 
 providing some convenient code-generation capabilities. 
 The tool inspects your database structure, including column names and foreign keys, in order 
 to automatically generate Models that have correctly typed properties, along with any relationships to other Models.
 
 ## How does it work?
 
-This package expects that you are using Laravel 5.1 or above.
-You will need to import the `reliese/laravel` package via composer:
+This package expects that you are using laravel-generation-model 5.1 or above.
+You will need to import the `tinymeng/laravel-generation-model` package via composer:
 
 ### Configuration
 
 It is recommended that this package should only be used on a local environment for security reasons. You should install it via composer using the --dev option like this:
 
 ```shell
-composer require reliese/laravel --dev
+composer require tinymeng/laravel-generation-model --dev
 ```
 
 Add the `models.php` configuration file to your `config` directory and clear the config cache:
 
 ```shell
-php artisan vendor:publish --tag=reliese-models
+php artisan vendor:publish --tag=tinymeng-models
 
 # Let's refresh our config cache just in case
 php artisan config:clear
@@ -67,7 +67,7 @@ php artisan code:models --schema=shop
 ### Customizing Model Scaffolding
 
 To change the scaffolding behaviour you can make `config/models.php` configuration file
-fit your database needs. [Check it out](https://github.com/reliese/laravel/blob/master/config/models.php) ;-)
+fit your database needs. [Check it out](https://github.com/tinymeng/laravel-generation-model/blob/master/config/models.php) ;-)
 
 ### Tips
 

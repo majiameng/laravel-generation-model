@@ -3,12 +3,12 @@
 ## v0.0.13 (2017-02-04)
 
 ### Fixed
- - Error when using setFetchMode on Laravel Connection [#13](https://github.com/reliese/laravel/issues/11)
+ - Error when using setFetchMode on Laravel Connection [#13](https://github.com/tinymeng/laravel/issues/11)
 
 ## v0.0.12 (2017-01-08)
 
 ### Fixed
- - Error when table with relationships does not have a primary key [#11](https://github.com/reliese/laravel/issues/11)
+ - Error when table with relationships does not have a primary key [#11](https://github.com/tinymeng/laravel/issues/11)
 
 ## v0.0.11 (2016-11-01)
 
@@ -16,13 +16,13 @@
  - CHANGELOG and LICENSE files
 
 ### Fixed
- - Only retrieve details for tables and not views ([#6](https://github.com/reliese/laravel/pull/6))
+ - Only retrieve details for tables and not views ([#6](https://github.com/tinymeng/laravel/pull/6))
 
 
 ## v0.0.10 (2016-11-01)
 
 ### Fixed
- - Add missing backticks to database queries ([#5](https://github.com/reliese/laravel/issues/5), [#2](https://github.com/reliese/laravel/issues/2))
+ - Add missing backticks to database queries ([#5](https://github.com/tinymeng/laravel/issues/5), [#2](https://github.com/tinymeng/laravel/issues/2))
 
 
 ## v0.0.9 (2016-10-23)
@@ -34,7 +34,7 @@
 ## v0.0.8 (2016-10-23)
 
 ### Fixed
- - Table name plural form resolution ([#3](https://github.com/reliese/laravel/issues/3))
+ - Table name plural form resolution ([#3](https://github.com/tinymeng/laravel/issues/3))
 
 
 ## v0.0.7 (2016-10-22)

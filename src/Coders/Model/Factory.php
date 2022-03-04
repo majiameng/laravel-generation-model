@@ -322,7 +322,7 @@ class Factory
                 /**
                  * Avoid breaking same-model relationships when using base classes
                  *
-                 * @see https://github.com/reliese/laravel/issues/209
+                 * @see https://github.com/tinymeng/laravel/issues/209
                  */
                 if ($model->usesBaseFiles() && $usedClass === $model->getQualifiedUserClassName()) {
                     continue;
