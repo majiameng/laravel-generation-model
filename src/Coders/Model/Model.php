@@ -564,9 +564,9 @@ class Model
      */
     public function usesTimestamps()
     {
-        return $this->timestamps &&
-               $this->blueprint->hasColumn($this->getCreatedAtField()) &&
-               $this->blueprint->hasColumn($this->getUpdatedAtField());
+        return $this->timestamps ||
+            ($this->blueprint->hasColumn($this->getCreatedAtField()) &&
+                $this->blueprint->hasColumn($this->getUpdatedAtField()));
     }
 
     /**

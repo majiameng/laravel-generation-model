@@ -444,7 +444,7 @@ class Factory
         }
 
         if (! $model->usesTimestamps()) {
-            $body .= $this->class->field('timestamps', false, ['visibility' => 'public']);
+            $body .= $this->class->field('timestamps', $model->usesTimestamps(), ['visibility' => 'public']);
         }
 
         if ($model->hasCustomDateFormat()) {
